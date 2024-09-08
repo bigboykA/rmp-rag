@@ -21,6 +21,7 @@ Hosting: Vercel for frontend, FastAPI backend (can be hosted on Vercel or other 
 APIs: OpenAI, Pinecone
 
 Issues Encountered & Resolutions:
+
 SSL Issue: Encountered an SSL error due to an incorrect API endpoint. Resolved by verifying the endpoint and ensuring the correct API key was used.
 Streaming Responses: Initial implementation did not stream responses correctly. The backend was modified to use FastAPI's StreamingResponse to stream data.
 Pinecone Integration: Faced issues with integrating Pinecone for context-aware searches. Resolved by carefully constructing the embeddings and refining query logic.
